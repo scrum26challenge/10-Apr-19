@@ -9,5 +9,5 @@ function onSubmit(e) {
   e.preventDefault();
   
   msg.classList.add('error');
-  msg.innerHTML = `<strong>${nameInput.value}</strong>e: ${number.value}`
+  msg.innerHTML = `Meeting Name :${nameInput.value} <br>Timer : ${number.value} seconds <br> Next Meeting Phase : Code`
   }
